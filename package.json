@@ -1,14 +1,15 @@
 {
-  "name": "render-protected-site",
+  "name": "serenity-yoga",
   "version": "1.0.0",
-  "type": "module",
+  "description": "Serenity Yoga website",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "engines": {
-    "node": "18.x"
-  },
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
